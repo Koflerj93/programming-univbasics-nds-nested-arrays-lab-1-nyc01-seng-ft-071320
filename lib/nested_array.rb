@@ -1,3 +1,7 @@
+# Examples inspired by U. S. National Organic Standards
+
+require 'pry'
+
 ORGANIC_PRODUCE = [
   "Strawberries",
   "Potatoes",
@@ -67,4 +71,4 @@ def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = new_value
   matrix
 
-endnd
+end
